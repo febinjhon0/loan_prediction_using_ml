@@ -1,9 +1,9 @@
 # Algorithms
-## This Repository contains the Loan Prediction Project created by using 4 different Machine Learning Algorithms.
+## This Repository contains the Loan Prediction Project created by using 3 different Machine Learning Algorithms.
 
 Classification Algorithms used:
 
 Logistic Regression (LR)
-Super Vector Machine (SVM)
-Decision Tree
-K-Nearest Neighbor (KNN)
+GaussianNB()
+RandomForestClassifier
+
