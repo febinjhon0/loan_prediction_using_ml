@@ -5,12 +5,9 @@ The loan eligibility prediction model makes use of an analysis technique that mo
 ## Objective
 Build models to predict clients who are likely to default on their loan and give recommendations to the bank on the important features to consider while approving a loan.
 ## Final results
-To solve this project I built 4 machine learning models: 
+To solve this project I built 3 machine learning models: 
 
 Logistic Regression (LR)
-Super Vector Machine (SVM)
-Decision Tree
-K-Nearest Neighbor (KNN)
-The best performance was obtained by the tuned decision tree model: 0.86 accuracy, 0.74 recall and 0.62 precision.
-
-I chose this model due to its high interpretability and high recall that minimizes defaulters.
+GaussianNB()
+RandomForestClassifier
+The best performance was obtained by the tuned Logistic regression model: 0.81 accuracy
